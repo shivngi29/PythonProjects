@@ -56,4 +56,4 @@ operator_equal=tk.Button(root, text="=", width=5, height=2, command=calculate)
 operator_equal.grid(row=4, column=2, sticky="nsew", padx=0, pady=0)
 clear1=tk.Button(root, text="C",width=5, height=2, command=clear)
 clear1.grid(row=5, column=0, sticky="nsew", padx=0, pady=0)
-root.mainloop() #GUI WINDOW ME RAKHTA HAI AUR USKO INTERACTIVE BANATA HAI, LOGIC YAAD RAKHTA HAI
+root.mainloop()
